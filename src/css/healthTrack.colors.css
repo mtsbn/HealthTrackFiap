@@ -1,0 +1,69 @@
+
+/* Health Track - Colors */
+
+.ht-primary {
+    color: #90076A;
+}
+
+.ht-secondary {
+    color: #D8A5C9;
+}
+
+.ht-primary-light {
+    color: #E9CDE1;
+}
+
+.ht-success {
+    color: #02681F;
+}
+
+.ht-black {
+    color: #3D3D3D;
+}
+
+.ht-white {
+    color: #FFFFFF;
+}
+
+.ht-blue {
+    color: #174995;
+}
+
+.ht-red {
+    color: #B00909;
+}
+
+/* Health Track - Background Colors */
+
+.ht-bg-primary {
+    background-color: #90076A;
+}
+
+.ht-bg-secondary {
+    background-color: #D8A5C9;
+}
+
+.ht-bg-primary-light {
+    background-color: #E9CDE1;
+}
+
+.ht-bg-success {
+    background-color: #02681F;
+}
+
+.ht-bg-black {
+    background-color: #3D3D3D;
+}
+
+.ht-bg-white {
+    background-color: #FFFFFF;
+}
+
+.ht-bg-blue {
+    background-color: #174995;
+}
+
+.ht-bg-red {
+    background-color: #B00909;
+}
+

@@ -1,0 +1,45 @@
+/* Health Track - Global metrics */
+
+/* html, body, section, i, span, h5 {
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+}
+
+a {
+    all: unset;
+}
+
+.menu-item:hover, .menu-item:focus, .menu-item:active {
+    border-bottom: white 1px solid;
+}
+
+nav {
+    padding: 15px;
+}
+
+nav h2 {
+    font-size: 1.5rem;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+.ht-subtitle {
+    font-size: 1.5rem;
+}
+
+.ht-icon {
+    font-size: 2rem;
+    padding: 10px;
+}

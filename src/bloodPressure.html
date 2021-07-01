@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="healthTrack, hands-on, fiap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Additional CSS -->
+    <link href="css/healthTrack.colors.css" rel="stylesheet">
+    <link href="css/healthTrack.metrics.css" rel="stylesheet">
+
+    <title>Relatório - HealthTrack</title>
+</head>
+
+<body>
+    <section class="container-fluid row p-0 m-0">
+        <div class="pos-f-t p-0 m-0">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="ht-bg-primary p-4">
+                    <h5 class="text-white h4">Menu</h5>
+                    <tr>
+                        <td><a class="text-white menu-item p-1" href="weight.html">Pesos</a></td>
+                        <td><a class="text-white menu-item p-1" href="bloodPressure.html">Pressão Arterial</a></td>
+                        <td><a class="text-white menu-item p-1" href="goals.html">Metas</a></td>
+                        <td><a class="text-white menu-item p-1" href="report.html">Relatório</a></td>
+                        <td><a class="text-white menu-item p-1" href="index.html">Sair</a></td>
+                    </tr>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark ht-bg-primary">
+                <a href="dashboard.html">
+                    <h2 class="ht-white">Health Track</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <div class="row h-50 mt-5">
+                <div class="col-md-4 h-100 d-flex align-content-center justify-content-center flex-wrap">
+                    <div>
+                        <h1>Pressão arterial</h1>
+                        <p>Adicione, edite e exclua do seu histórico</p>
+                        <div>
+                            <form class="col-12" action="#">
+                                <div class="form-group">
+                                    <label class="ht-black" for="sys">Sys</label>
+                                    <input type="number" class="form-control form-control-lg" id="sys"
+                                        placeholder="150">
+                                </div>
+                                <div class="form-group">
+                                    <label class="ht-black" for="dia">Dia</label>
+                                    <input type="number" class="form-control form-control-lg" id="dia"
+                                        placeholder="80">
+                                </div>                                
+                                <div class="form-group">
+                                    <label class="ht-black" for="date">Data da medição</label>
+                                    <input type="date" class="form-control form-control-lg" id="date">
+                                </div>
+                                <div class="form-group">
+                                    <label class="ht-black" for="date">Hora da medição</label>
+                                    <input type="time" class="form-control form-control-lg" id="date">
+                                </div>
+                                <button type="submit" class="btn ht-bg-primary ht-white mt-3">Adicionar</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 h-100 d-flex align-content-around justify-content-center flex-wrap">
+                    <div class="table-responsive col-12 col-md-10">
+                        <table class="table ">
+                            <thead>
+                                <td>#</td>
+                                <td>Data</td>
+                                <td>Hora</td>
+                                <td>Sys</td>
+                                <td>Dia</td>
+                                <td>Ações</td>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>10 jun</td>
+                                    <td>10:00</td>
+                                    <td>150</td>
+                                    <td>80</td>
+                                    <td>
+                                        <i class="bi-pencil text-info fs-4"></i>
+                                        <i class="bi-trash text-danger fs-4"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>11 jun</td>
+                                    <td>10:00</td>
+                                    <td>150</td>
+                                    <td>80</td>
+                                    <td>
+                                        <i class="bi-pencil text-info fs-4"></i>
+                                        <i class="bi-trash text-danger fs-4"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>12 jun</td>
+                                    <td>10:00</td>
+                                    <td>150</td>
+                                    <td>80</td>
+                                    <td>
+                                        <i class="bi-pencil text-info fs-4"></i>
+                                        <i class="bi-trash text-danger fs-4"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>13 jun</td>
+                                    <td>10:00</td>
+                                    <td>150</td>
+                                    <td>80</td>
+                                    <td>
+                                        <i class="bi-pencil text-info fs-4"></i>
+                                        <i class="bi-trash text-danger fs-4"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>14 jun</td>
+                                    <td>10:00</td>
+                                    <td>150</td>
+                                    <td>80</td>
+                                    <td>
+                                        <i class="bi-pencil text-info fs-4"></i>
+                                        <i class="bi-trash text-danger fs-4"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
